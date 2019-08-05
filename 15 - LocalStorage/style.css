@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  /* background-image: akdj; */
   background: url('http://wes.io/hx9M/oh-la-la.jpg') center no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -60,12 +61,15 @@ h2 {
 }
 
 .plates input + label:before {
-  content: '⬜️';
+  content: '🍽';
   margin-right: 10px;
 }
 
 .plates input:checked + label:before {
+  content: '🌯';
   content: '🌮';
+  /* innerHTML. replace like i did with the play button in 
+  the video player asignment.  */
 }
 
 .add-items {
